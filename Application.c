@@ -96,7 +96,7 @@ void MachineLogic(void)
    if(( RxWifi_TxDataSetMac[1].rightDiehighTemp < RxDataSetmac[1].temperature1_act)|| (RxWifi_TxDataSetMac[1].rightDieLowTemp > RxDataSetmac[1].temperature1_act)
    ||(RxWifi_TxDataSetMac[1].leftDiehighTemp  < RxDataSetmac[1].temperature2_act) || (RxWifi_TxDataSetMac[1].leftDieLowTemp > RxDataSetmac[1].temperature2_act))
    {
-   	  //Temperture not OK
+   	  //Temperture machine1 not OK
 	  IO0SET |= (1<<19);
    }
    else
