@@ -1,0 +1,36 @@
+*** Creating Trace Output File '.\Objects\power.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\objects\startup.o"'
+### List of Objects: adding '".\objects\main.o"'
+### List of Objects: adding '".\objects\i_0_bsp.o"'
+### List of Objects: adding '".\objects\esp8266.o"'
+### List of Objects: adding '".\objects\lcd_routine.o"'
+### List of Objects: adding '".\objects\timer_config_int.o"'
+### List of Objects: adding '".\objects\vector.o"'
+### List of Objects: adding '".\objects\clock.o"'
+### List of Objects: adding '".\objects\uart_base.o"'
+### List of Objects: adding '".\objects\powermeter.o"'
+### List of Objects: adding '".\objects\lcd_driver_4line.o"'
+### List of Objects: adding '".\objects\iic_module.o"'
+### List of Objects: adding '".\objects\spi.o"'
+### List of Objects: adding '".\objects\enc28j60.o"'
+### List of Objects: adding '".\objects\application.o"'
+### List of Objects: adding '".\objects\app_layer_2.o"'
+### List of Objects: adding '".\objects\oled_i2c.o"'
+### List of Objects: adding '".\objects\oled_displayroutine.o"'
+### ADS-LD Command completed:
+--device DARMP ".\objects\startup.o" ".\objects\main.o" ".\objects\i_0_bsp.o" ".\objects\esp8266.o" ".\objects\lcd_routine.o" ".\objects\timer_config_int.o" ".\objects\vector.o" ".\objects\clock.o" ".\objects\uart_base.o" ".\objects\powermeter.o" ".\objects\lcd_driver_4line.o" ".\objects\iic_module.o" ".\objects\spi.o" ".\objects\enc28j60.o" ".\objects\application.o" ".\objects\app_layer_2.o" ".\objects\oled_i2c.o" ".\objects\oled_displayroutine.o" --strict --scatter ".\Objects\power.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listings\power.map" -o ".\Objects\power.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Objects\power.axf'
+### ADS-LD Command File: '.\Objects\power.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Objects\power.lnp', Handle=0x00000670
+### Writing '.lnp' file
+### ADS-LD Command file '.\Objects\power.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

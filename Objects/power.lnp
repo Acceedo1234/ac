@@ -1,0 +1,4 @@
+--device DARMP ".\objects\startup.o" ".\objects\main.o" ".\objects\i_0_bsp.o" ".\objects\esp8266.o" ".\objects\lcd_routine.o" ".\objects\timer_config_int.o" ".\objects\vector.o" ".\objects\clock.o" ".\objects\uart_base.o" ".\objects\powermeter.o" ".\objects\lcd_driver_4line.o" ".\objects\iic_module.o" ".\objects\spi.o" ".\objects\enc28j60.o" ".\objects\application.o" ".\objects\app_layer_2.o" ".\objects\oled_i2c.o" ".\objects\oled_displayroutine.o" --strict --scatter ".\Objects\power.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listings\power.map" -o ".\Objects\power.axf"

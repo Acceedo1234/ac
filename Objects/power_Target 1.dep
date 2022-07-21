@@ -1,0 +1,7 @@
+Dependencies for Project 'power', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x55AF141C)(--cpu ARM7TDMI -g --apcs=interwork -IF:\keil\ARM\RV31\INC-IF:\keil\ARM\CMSIS\Include-IF:\keil\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 521"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\main.c)(0x5AC1FF99)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections-IF:\keil\ARM\RV31\INC-IF:\keil\ARM\CMSIS\Include-IF:\keil\ARM\Inc\Philips-D__UVISION_VERSION="521"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (F:\keil\ARM\Inc\Philips\LPC214X.h)(0x55AF142E)
+I (F:\keil\ARM\ARMCC\include\stdio.h)(0x574E614E)
+I (lcd.h)(0x5AC1FA2A)
+I (uart.h)(0x5AC0F7D5)
